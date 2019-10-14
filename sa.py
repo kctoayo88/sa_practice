@@ -13,13 +13,13 @@ delta = 0.9
 k = 3
 
 # Initialize
-x = np.linspace(-1, 2, 1000)
-y = np.linspace(-1, 1, 1000)
-init_output = inputfun(x[0], y[0])
+x = np.random.uniform(-1, 2)
+y = np.random.uniform(-1, 1)
+init_output = inputfun(x, y)
 
 nowt = initT
-init_x =x[0]
-init_y =y[0]
+init_x =x
+init_y =y
 
 print('-----init-----')
 print('x, y:', init_x, init_y)
